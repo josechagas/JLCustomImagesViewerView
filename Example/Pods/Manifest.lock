@@ -1,0 +1,14 @@
+PODS:
+  - JLCustomImagesViewerView (0.1.0)
+
+DEPENDENCIES:
+  - JLCustomImagesViewerView (from `../`)
+
+EXTERNAL SOURCES:
+  JLCustomImagesViewerView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JLCustomImagesViewerView: 4f9cdebb2ba20ad9e3df62fff1cb6eda1aa8a3ae
+
+COCOAPODS: 0.39.0
