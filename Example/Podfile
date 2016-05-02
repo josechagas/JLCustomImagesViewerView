@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLCustomImagesViewerView_Example', :exclusive => true do
+  pod 'JLCustomImagesViewerView', :path => '../'
+end
+
+target 'JLCustomImagesViewerView_Tests', :exclusive => true do
+  pod 'JLCustomImagesViewerView', :path => '../'
+
+  
+end
