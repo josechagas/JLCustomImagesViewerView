@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+/**
+ A class that inherit from 'UIImageView' used on 'JLCustomImagesViewerView' 
+ */
 class JLViewerImageView: UIImageView {
 
   

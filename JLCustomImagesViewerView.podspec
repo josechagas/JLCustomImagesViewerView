@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JLCustomImagesViewerView"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "This is the one for you can see one or more images in a detail view where you can zoom in, zoom out and execute some other gestures"
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/josechagas/JLCustomImagesViewerView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "José Lucas" => "joselucas1994@yahoo.com.br" }
+  s.author           = { "José Lucas" => "chagasjoselucas@gmail.com" }
   s.source           = { :git => "https://github.com/josechagas/JLCustomImagesViewerView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

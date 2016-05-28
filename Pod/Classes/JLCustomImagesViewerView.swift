@@ -27,7 +27,7 @@ public class JLCustomImagesViewerView: UIVisualEffectView,UIScrollViewDelegate {
     
     private var pageControl:UIPageControl?
     
-    override init(effect: UIVisualEffect?) {
+    public override init(effect: UIVisualEffect?) {
         super.init(effect: effect)
         addGestures()
         
@@ -40,7 +40,12 @@ public class JLCustomImagesViewerView: UIVisualEffectView,UIScrollViewDelegate {
     }
     
     //MARK: - Components
-    
+    /**
+     Use this method to add a pageControl on this view to help the user to see how many images there is
+     - parameter aligment: the position aligment of the pageControl
+     - parameter tintColor: tint color of the pageControl
+     - parameter currentPageColor: current page color indicator of the pageControl
+     */
     public func addPageControl(aligment:ComponentAligment,tintColor:UIColor,currentPageColor:UIColor){
         
         pageControl = UIPageControl()
@@ -81,7 +86,9 @@ public class JLCustomImagesViewerView: UIVisualEffectView,UIScrollViewDelegate {
         
     }
     
-    
+    /**
+     Adds the scroll on this view
+     */
     private func addScroll(){
         
         scrollView = UIScrollView(frame: self.frame)
@@ -228,7 +235,9 @@ public class JLCustomImagesViewerView: UIVisualEffectView,UIScrollViewDelegate {
     
     
     //MARK: - Gestures methods
-    
+    /**
+     Add all necessary gestures on view
+     */
     private func addGestures(){
         
         let tapGes = UITapGestureRecognizer(target: self, action: #selector(JLCustomImagesViewerView.tapGesAction(_:)))

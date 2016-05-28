@@ -19,10 +19,34 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "JLCustomImagesViewerView"
 ```
+## Images
+
+
+## Using this Library
+##### *First Step*
+
+Import it on every file that you will use this framework.
+
+```swift
+import JLCustomImagesViewerView
+```
+##### *Second Step*
+    Call this method to show the JLCustomImagesViewerView with the images you want
+
+- parameter images: Array of images that you want to see
+- parameter view: The view where you want to show it
+- parameter showViewCompletion: A block that will be executed after present the JLCustomImagesViewerView
+- parameter hideViewCompletion: A block that will be executed after remove the JLCustomImagesViewerView
+
+```swift
+public func showViewerForImages(images:[UIImage],OnView view:UIView,showViewCompletion:(()->())?,hideViewCompletion:(()->())?) {
+```
+#### *That's it, now you are ready to use it*
+
 
 ## Author
 
-José Lucas, joselucas1994@yahoo.com.br
+José Lucas, chagasjoselucas@gmail.com
 
 ## License
 
