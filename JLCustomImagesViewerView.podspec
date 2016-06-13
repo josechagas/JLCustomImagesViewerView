@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JLCustomImagesViewerView"
-  s.version          = "0.2.1"
+  s.version          = "1.0.0"
   s.summary          = "This is the one for you can see one or more images in a detail view where you can zoom in, zoom out and execute some other gestures"
 
 # This description is used to generate tags and improve search results.

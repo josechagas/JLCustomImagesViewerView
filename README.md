@@ -18,7 +18,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "JLCustomImagesViewerView"
-```
+``
 
 ## Using this Library
 ##### *First Step*
@@ -27,7 +27,7 @@ Import it on every file that you will use this framework.
 
 ```swift
 import JLCustomImagesViewerView
-```
+``
 ##### *Second Step*
 
     Create an instance of JLCustomImagesViewerView
@@ -37,7 +37,7 @@ import JLCustomImagesViewerView
 let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
 
 let viewer = JLCustomImagesViewerView(effect: blurEffect)
-```
+``
 
 ##### *Optional Step*
 
@@ -49,7 +49,7 @@ let viewer = JLCustomImagesViewerView(effect: blurEffect)
 
 ```swift
 public func addPageControl(aligment:ComponentAligment,tintColor:UIColor,currentPageColor:UIColor)
-```
+``
 
 ##### *Third Step*
     Call this method to show the JLCustomImagesViewerView with the images you want
@@ -61,7 +61,7 @@ public func addPageControl(aligment:ComponentAligment,tintColor:UIColor,currentP
 
 ```swift
 public func showViewerForImages(images:[UIImage],OnView view:UIView,showViewCompletion:(()->())?,hideViewCompletion:(()->())?)
-```
+``
 
 
 
